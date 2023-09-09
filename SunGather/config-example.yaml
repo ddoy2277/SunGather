@@ -103,9 +103,6 @@ exports:
         payload_off: "OFF"
       - name: "Active Generation"
         sensor_type: sensor
-        register: total_active_power
-        dev_class: power
-        state_class: measurement
       - name: "Active Export to Grid"
         sensor_type: sensor
         register: export_to_grid
